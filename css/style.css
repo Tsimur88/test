@@ -217,7 +217,40 @@ p {
     animation-name: fade;
     animation-duration: 1.5s;
   }
-  
+#msg {
+  width: 1175px;
+}
+#email {
+  width: 571px;
+  margin-left: 33px;
+}
+#subject {
+  width: 571px;
+}
+.message {
+  margin-bottom: 66px;
+} 
+#submit {
+  margin-bottom: 60px;
+}
+footer {
+  background-color: #314584;
+  text-align: center;
+}
+.footer-nav {
+  color: #ffffff;
+}
+.creativity {
+  font-size: 48px;
+  color: #ff3946;
+}
+.fab {
+  color: white;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+}
 @-webkit-keyframes fade {
     from {opacity: .4}
     to {opacity: 1}
