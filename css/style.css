@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans';
+    font-weight: 600;
+    color: #314584;
+}
+header {
+    width: 100%;
+    display: flex;
+}
+.logo {
+    width: 20%;
+}
+.logo-image {
+    margin: 0 auto;
+    display: block;
+}
+.lang {
+  display: inline-block;
+}
+.wrap-title {
+  display: inline-block;
+  margin-left: 12%;
+}
+nav {
+   display: flex;
+   flex-direction: row;
+}
+nav a {
+    transition: linear .3s;
+}
+ul {
+   display: flex;
+   list-style-type: none;
+   justify-content: space-evenly;
+ }
+.nav-links a:hover {
+    border-bottom: 2px solid #bf4aa8;
+ }
+.burger {
+     cursor: pointer;
+     display: none;
+ }
+.line {
+     width: 25px;
+     height: 3px;
+     margin: 5px;
+     background-color: #314584;
+     transition: all .4s ease;
+ }
+li {
+    padding-right: 46px;
+    font-family: 'Work Sans';
+    font-weight: 600;
+    color: #314584;
+ }
+.contact {
+    color: #ff3946;
+    padding: 12px 22px;
+    border-radius: 3px;
+    line-height: 40px;
+    box-shadow: 0px 4px 5px 3px rgba(229,232,232,1);
+ }
+ .lang ul {
+   display: none;
+ }
+h1 {
+     font-size: 3.7em;
+     font: #314584;
+ }
+.slider-wrap {
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: space-around;
+ }
+.left, .right {
+     width: 50%;
+ }
+.left {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+p {
+     margin-top: 44px;
+ }
+.red-button {
+     border-radius: 30px;
+     padding: 14px 30px;
+     background-color: #ff3946;
+     border: none;
+ }
+.get-in-touch {
+    border: none;
+    background: none;
+}
+.first-slide-wrap {
+    width: 70%;
+}
+.buttons {
+    margin-top: 43px;
+}
+/* The grid: Four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 32%;
+    padding: 10px ;
+  }
+.row {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}  
+  /* Style the images inside the grid */
+.column img {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  
+.column img:hover {
+    opacity: 1;
+  }
+  
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.more-of-these {
+    margin: auto;
+    text-decoration: none;
+    color: #ff3946;
+}
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+.mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(49,69,132,0.8);
+  }
+  
+  /* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+.active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }

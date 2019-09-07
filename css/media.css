@@ -1,0 +1,138 @@
+@media (max-width: 320px) {
+    body {
+        width: 100%;
+    }
+    .dot,.slideshow-container {
+        display: none;
+    }
+    .topnav, .contact, .slider-wrap {
+        display: none;
+    }
+    .logo {
+        margin: 7vh 0 0 7vw;
+    }
+    .langchange {
+        position: absolute;
+        left: 114px;
+    }
+    .fa-bars:before {
+        content: "\f0c9";
+        position: absolute;
+        right: 60px;
+    }    
+    .topnav, .contact {
+        display: none;
+    }
+    .topnav {
+        overflow: hidden;
+        background-color: #333;
+        position: relative;
+      }
+      
+      /* Hide the links inside the navigation menu (except for logo/home) */
+      .topnav #myLinks {
+        display: none;
+      }
+      
+      /* Style navigation menu links */
+      .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+      }
+      
+      /* Style the hamburger menu */
+      .topnav a.icon {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      
+      /* Add a grey background color on mouse-over */
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      
+      /* Style the active link (or home/logo) */
+      .active {
+        background-color: #4CAF50;
+        color: white;
+      }}
+@media (max-width: 768px) {
+    body {
+        padding-bottom: 70vh;
+    }
+    .content {
+        width: 100%;
+    }
+    .lang {
+        position: absolute;
+        top: 6vh;
+        right: 22vw;
+    }
+    .icon {
+        position: absolute;
+        top: 5vh;
+        right: 10vw;
+    }
+    .logo-image {
+        margin: 5vh auto;
+    }
+    h2 {
+        margin-left: 3%;
+    }
+    .grid img {
+        width: 100%;
+    }
+    .topnav, .contact {
+        display: none;
+    }
+    .topnav {
+        overflow: hidden;
+        background-color: #333;
+        position: relative;
+      }
+      
+      /* Hide the links inside the navigation menu (except for logo/home) */
+      .topnav #myLinks {
+        display: none;
+      }
+      
+      /* Style navigation menu links */
+      .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+      }
+      
+      /* Style the hamburger menu */
+      .topnav a.icon {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      
+      /* Add a grey background color on mouse-over */
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      
+      /* Style the active link (or home/logo) */
+      .active {
+        background-color: #4CAF50;
+        color: white;
+      }
+      .slideshow-container {
+          width: 100%;
+      }
+    }      
