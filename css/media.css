@@ -1,9 +1,15 @@
-@media (min-width:0px) and (max-width: 321px) {
+@media (max-width: 767px) {
   .container {
-    width: 300px;
+    width: 90%;
+  }
+  .logo {
+    width: 0;
+    margin: 6% 0 0 6%;
   }
   h2 {
+    margin-top: 10%;
     font-size: 24px;
+    text-align: center;
   }
   .column {
       flex: 51%;
@@ -16,47 +22,38 @@
     display: none;
   }
 /* Style the navigation menu */
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-  position: relative;
-}
+  .topnav {
+    overflow: hidden;
+    background-color: #f4fafe;
+    position: relative;
+  }
+  .nav {
+    width: 80%;
+    height: 150px;
+  }
+  nav ul {
+    flex-direction: column;
+  }
+  .nav-links li {
+    text-align: center;
+    padding: 0;
+  }
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav a {
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  /* Add a grey background color on mouse-over */
+  .nav-links a:hover {
+    background-color: greenyellow;
+  }
 
-/* Hide the links inside the navigation menu (except for logo/home) */
-.topnav #myLinks {
-  display: none;
-}
-/* Style navigation menu links */
-.topnav a {
-  color: white;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  display: block;
-}
-/* Style the hamburger menu */
-.topnav a.icon {
-  background: black;
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-/* Add a grey background color on mouse-over */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Style the active link (or home/logo) */
-.active {
-  background-color: #4CAF50;
-  color: white;
-}
-
-  .logo {
-    margin: 7vh 0 0 7vw;
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: #4CAF50;
+    color: white;
   }
   .langchange {
     position: absolute;
@@ -70,46 +67,32 @@
   .icon {
     display: block;
   }
+  .fa {
+    color: #314584;        
+  }
   #subject {
     margin: 0 0 4% 0;
-    width: 100%;
+    width: 90%;
   }
   #email {
-    width: 100%;
+    width: 90%;
   }
-  /* Hide the links inside the navigation menu (except for logo/home) */
-  .topnav #myLinks {
-    display: none;
+  #msg {
+    width: 90%;
   }
-
-  /* Style navigation menu links */
-  .topnav a {
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    display: block;
-  }
-
   /* Style the hamburger menu */
-  .topnav a.icon {
-    background: black;
+  header .icon {
+    color: #314584;
     display: block;
     position: absolute;
     right: 0;
     top: 0;
   }
-
-  /* Add a grey background color on mouse-over */
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+  #contact-us {
+    text-align: center;
   }
-
-  /* Style the active link (or home/logo) */
-  .active {
-    background-color: #4CAF50;
-    color: white;
+  form {
+    width:90%;
   }
   .footer-nav ul {
     display: block;
@@ -119,9 +102,9 @@
     margin-bottom: 10px;
   } 
 }
-@media (min-width:322px) and (max-width: 768px) {
+@media (min-width: 768px) and (max-width:1000px) {
 .container {
-  width: 740px;
+  width: 90%;
 }
 .topnav {
   display: block;

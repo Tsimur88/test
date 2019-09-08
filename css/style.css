@@ -6,6 +6,9 @@
   font-weight: 600;
   color: #314584;
 }
+html, body {
+  width: 100%;
+} 
 .container {
   width: 1175px;
   margin: auto;
@@ -21,7 +24,7 @@ header {
   margin-top: 78px;
 }
 .langchange {
-  margin: 0 47px 0 213px;
+  margin: 0 47px 110px 82px;
   display: inline-block;
 }
 .topnav {
@@ -31,17 +34,10 @@ header {
 ul {
   display: flex;
   list-style-type: none;
-  justify-content: space-evenly;
+  justify-content: start;
  }
-.nav-links a:hover {
-  border-bottom: 2px solid #bf4aa8;
- }
-.line {
-  width: 25px;
-  height: 3px;
-  margin: 5px;
-  background-color: #314584;
-  transition: all .4s ease;
+.nav-links a {
+  text-decoration: none;
  }
 li {
   padding-right: 46px;
@@ -50,6 +46,7 @@ li {
   color: #314584;
  }
 .contact {
+  margin-left: 46px;
   color: #ff3946;
   padding: 12px 22px;
   border-radius: 3px;
@@ -100,7 +97,8 @@ p {
   padding-left: 1%;
 }
 .column {
-  width: 30%;
+  flex: 25%;
+  max-width: 30%;
 }
 .more-of-these {
   margin: auto;
@@ -187,7 +185,7 @@ p {
   animation-name: fade;
   animation-duration: 1.5s;
   }
-  .grid {
+.grid {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -197,7 +195,7 @@ p {
   color: #ff3946;
   margin-bottom: 151px
 }
-.contact-us {
+.contact-us span{
   font-size: 12px;
   color: #ff3946;
 }
@@ -263,6 +261,11 @@ footer {
   background-color: #314584;
   text-align: center;
 }
+.footer-nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
 .footer-nav li{
   color: #ffffff;
   overflow: hidden;
@@ -311,11 +314,6 @@ footer p {
 }
 
 /* Create four equal columns that sits next to each other */
-.column {
-  flex: 25%;
-  max-width: 30%;
-}
-
 .column img {
   margin-bottom: 32px;
   vertical-align: middle;
