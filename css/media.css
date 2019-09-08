@@ -1,10 +1,13 @@
-@media (max-width: 320px) {
+@media (min-width:0px) and (max-width: 321px) {
+  .container {
+    width: 300px;
+  }
   h2 {
-    margin-left: 0;
+    font-size: 24px;
   }
   .column {
-    flex: 100%;
-    max-width: 80%;
+      flex: 51%;
+      max-width: 71%;
   }
   .dot,.slideshow-container {
     display: none;
@@ -107,8 +110,18 @@
   .active {
     background-color: #4CAF50;
     color: white;
-  }}
-@media screen and (max-width: 768px) {
+  }
+  .footer-nav ul {
+    display: block;
+  }
+}
+@media (min-width:322px) and (max-width: 768px) {
+.container {
+  width: 740px;
+}
+.topnav {
+  display: block;
+}  
 .logo {
   margin-left: 5vw
 }  
@@ -117,10 +130,7 @@
   max-width: 45%;
 }
 body {
-  padding-bottom: 70vh;
-}
-.container {
-  width: 80%;
+  padding-bottom: 45vh;
 }
 /* .column {
   min-height: auto;
@@ -132,7 +142,7 @@ body {
   margin-top: 38px;
 }
 .langchange {
-  margin: 0;
+  margin-top: 20px;
 }
 .icon {
   position: absolute;

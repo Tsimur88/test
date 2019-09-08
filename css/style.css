@@ -78,7 +78,7 @@ h1 {
   align-items: center;
  }
 p {
-  margin-top: 44px;
+  margin-top: 24px;
  }
 .red-button {
   margin-right: 39px; 
@@ -95,12 +95,12 @@ p {
 .buttons {
   margin-top: 43px;
 }
-h2 {
+.wrap-title {
   font-size: 48px;
+  padding-left: 1%;
 }
 .column {
   width: 30%;
-  margin: 0 28px 32px 0;
 }
 .more-of-these {
   margin: auto;
@@ -205,6 +205,7 @@ form {
   text-align: center;
 }
 .message h2 {
+  font-size: 48px;
   margin: 31px 0 57px 0;
 }
 #msg {
@@ -215,6 +216,7 @@ form {
   background-color: #f4fafe;
   width: 100%;
   resize: none;
+  border: none;
 }
 #email {
   padding: 20px 20px;
@@ -223,6 +225,7 @@ form {
   background-color: #f4fafe;
   width: 49%;
   margin-bottom: 37px;
+  border: none;
 }
 #subject {
   padding: 20px 20px;
@@ -231,6 +234,7 @@ form {
   background-color: #f4fafe;
   width: 49%;
   margin-left: 18px;
+  border: none;
 }
 .message {
   margin-bottom: 66px;
@@ -259,7 +263,7 @@ footer {
   background-color: #314584;
   text-align: center;
 }
-.footer-nav li {
+.footer-nav li{
   color: #ffffff;
   overflow: hidden;
   display: flex;
@@ -303,7 +307,7 @@ footer p {
 .row {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 /* Create four equal columns that sits next to each other */
