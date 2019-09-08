@@ -131,10 +131,8 @@ body {
 .logo {
   margin-top: 38px;
 }
-.lang {
-  position: absolute;
-  top: 6vh;
-  right: 22vw;
+.langchange {
+  margin: 0;
 }
 .icon {
   position: absolute;
